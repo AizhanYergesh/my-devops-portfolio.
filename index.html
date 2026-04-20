@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aizhan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="profile-img">🚀</div>
+            <h1>Aizhan Yergesh</h1> <p class="title">Information Systems Student | Student Researcher</p> </header>
+
+        <section class="bio">
+            <h2><i class="fas fa-user-astronaut"></i> About Me</h2>
+            <p>I am an Information Systems student passionate about technology and automation. My focus is on learning how DevOps practices can bridge the gap between development and operations to create more efficient software systems[cite: 18].</p>
+        </section>
+
+        <section class="skills">
+            <h2><i class="fas fa-code"></i> Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML & CSS</div>
+                <div class="skill-card">GitHub Actions</div>
+                <div class="skill-card">Version Control</div> </div>
+        </section>
+
+        <footer>
+            <p>Last Deployment: <span id="date"></span></p> </footer>
+    </div>
+
+    <script>
+        // Бүгінгі күнді автоматты түрде қою
+        document.getElementById('date').innerHTML = new Date().toDateString();
+    </script>
+</body>
+</html>
